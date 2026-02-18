@@ -4,8 +4,7 @@ from rest_framework.views import APIView
 from django_filters.rest_framework import DjangoFilterBackend
 from django.db.models import Q
 from .models import Product
-from .serializers import (ProductSerializer, ProductCreateUpdateSerializer,
-                          ProductSearchSerializer)
+from .serializers import *
 from core.permissions import IsAdminOrReadOnly
 
 

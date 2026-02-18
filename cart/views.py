@@ -3,8 +3,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.shortcuts import get_object_or_404
 from .models import Cart, CartItem
-from .serializers import (CartSerializer, CartItemSerializer,
-                          AddToCartSerializer, UpdateCartItemSerializer)
+from .serializers import *
 from products.models import Product
 from core.exceptions import CartEmptyException
 

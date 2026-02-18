@@ -1,8 +1,7 @@
 from rest_framework import generics, permissions, filters, status
 from django_filters.rest_framework import DjangoFilterBackend
-from .models import Comment
-from .serializers import (CommentSerializer, CommentCreateSerializer,
-                         CommentUpdateSerializer)
+from .models import *
+from .serializers import *
 from products.models import Product
 from core.permissions import IsOwnerOrAdmin
 

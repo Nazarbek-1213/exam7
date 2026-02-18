@@ -14,10 +14,7 @@ from rest_framework import status
 
 from shared.utility import send_email, email_or_phone
 from users.models import User, VIA_EMAIL, VIA_PHONE, DONE, CLIENT, CODE_VERIFIED
-from users.serializers import SignUpSerializer, UserChangeInfoSerializer, UserPhotoSerializer, ResetPasswordSerializer, \
-    LoginSerializer, LoginRefreshSerializer, LogoutSerializer, ForgotPasswordSerializer, UserProfileSerializer, \
-    VerifyCodeSerializer
-
+from users.serializers import *
 
 class SignUpView(CreateAPIView):
     queryset = User.objects.all()

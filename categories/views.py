@@ -2,7 +2,7 @@ from rest_framework import generics, permissions, filters
 from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import Category
-from .serializers import CategorySerializer, CategoryCreateUpdateSerializer
+from .serializers import *
 from core.permissions import IsAdminOrReadOnly
 
 class CategoryListView(generics.ListAPIView):

@@ -125,7 +125,7 @@ SWAGGER_SETTINGS = {
             'description': 'JWT tokenni quyidagicha kiriting: Bearer <your_token>',
         }
     },
-    'USE_SESSION_AUTH': False,  # Bu juda muhim
+    'USE_SESSION_AUTH': False,
 }
 
 
@@ -201,8 +201,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'abdurashidov3103@gmail.com'
-EMAIL_HOST_PASSWORD = 'ksqi tpaf qtyg mrhf'
+EMAIL_HOST_USER = 'nazarbeksafarov895@gmail.com'
+EMAIL_HOST_PASSWORD = 'bhud vxkv kddh jkac'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 AUTH_USER_MODEL = 'users.User'
